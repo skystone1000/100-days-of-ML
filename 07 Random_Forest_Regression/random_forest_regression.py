@@ -24,11 +24,11 @@ y_train = sc_y.fit_transform(y_train)"""
 
 # Fitting Random Forest Regression to the dataset
 from sklearn.ensemble import RandomForestRegressor
-regressor = RandomForestRegressor(n_estimators = 10, random_state = 0)
+regressor = RandomForestRegressor(n_estimators = 100, random_state = 0)
 regressor.fit(X, y)
 
 # Predicting a new result
-y_pred = regressor.predict(6.5)
+y_pred = regressor.predict([[6.5]])
 
 # Visualising the Random Forest Regression results (higher resolution)
 X_grid = np.arange(min(X), max(X), 0.01)
