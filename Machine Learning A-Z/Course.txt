@@ -1,0 +1,5 @@
+Machine Learning A-Z™: Hands-On Python & R In Data Science
+
+Kirill Eremenko
+
+https://www.udemy.com/course/machinelearning/
